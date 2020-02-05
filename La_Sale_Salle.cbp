@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="La_Sale_Salle" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/La_Sale_Salle" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/La_Sale_Salle" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="libws2_32.a" />
+			<Add directory="include" />
+		</Linker>
+		<Unit filename="Affichage.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Affichage.h" />
+		<Unit filename="Client.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Client.h" />
+		<Unit filename="Commande.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Commande.h" />
+		<Unit filename="Enigme.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Enigme.h" />
+		<Unit filename="Hote.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Hote.h" />
+		<Unit filename="Menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Menu.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

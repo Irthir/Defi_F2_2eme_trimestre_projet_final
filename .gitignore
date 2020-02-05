@@ -1,0 +1,5 @@
+#Ajouts personnels
+*.exe
+*.o
+*.depend
+*.layout
