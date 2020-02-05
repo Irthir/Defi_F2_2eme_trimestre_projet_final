@@ -64,7 +64,7 @@ void affPile()
         fclose(pFile);
     }
     color(GRISCLAIR, NOIR);
-    printf("A votre gauche se trouve une pile de cube rouge, et devant se trouve l'intitule : << Combien de cubes sont presents ? >>\n");
+    printf("\nA votre gauche se trouve une pile de cube rouge, et devant se trouve l'intitule : << Combien de cubes sont presents ? >>\n");
 }
 
 void enigmeJ1()
@@ -112,7 +112,7 @@ void descGravure ()
 {
 	//on affiche le carré magique au dessus
 	color(GRISCLAIR, NOIR);
-	printf("Devant vous, une etrange tablette de bois jaune s'illumine.\n Une question s'affiche en dessous: <<Quel est le nombre manquant ?>>\n");
+	printf("Devant vous, une etrange tablette de bois jaune s'illumine.\nUne question s'affiche en dessous: <<Quel est le nombre manquant ?>>\n");
 }
 
 void descBougie ()

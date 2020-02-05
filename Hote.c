@@ -158,7 +158,7 @@ void hote(void)
                     }
 
 
-                    pthread_exit(threadRecept);
+                    //pthread_exit(threadRecept);
                     //pthread_join(threadRecept,NULL);
 
                     /* Il ne faut pas oublier de fermer la connexion (fermée dans les deux sens) */

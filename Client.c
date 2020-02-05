@@ -133,7 +133,7 @@ void client(void)
                         Avertissement();
                 }
             }
-            pthread_exit(threadRecept);
+            //pthread_exit(threadRecept);
             //pthread_join(threadRecept,NULL);
         }
         /* sinon, on affiche "Impossible de se connecter" */
